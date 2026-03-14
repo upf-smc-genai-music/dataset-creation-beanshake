@@ -1,3 +1,0 @@
-{
-    "parameter_1": {"name": "BeanCount", "type": "continuous", "unit": "count", "min": 1,   "max": 1024}
-}
