@@ -181,7 +181,7 @@ def main():
     args = parse_args()
     input_dir  = Path(args.input_dir).resolve()
     output_dir = Path(args.output_dir).resolve() if args.output_dir \
-                 else input_dir / 'with_envelope'
+                 else input_dir / f'with_envelope_{args.smoothing_ms}_ms'
 
     print(f"\nInput  : {input_dir}")
     print(f"Output : {output_dir}")

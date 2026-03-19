@@ -1,0 +1,5 @@
+{
+    "parameter_1": {"name": "BeanCount", "type": "continuous", "unit": "count", "min": 1,   "max": 1024},
+    "parameter_2": {"name": "rms_db", "type": "continuous", "unit": "dB", "min": -80.0,   "max": 0},
+    "parameter_3": {"name": "shake_rate_bpm", "type": "continuous", "unit": "bpm", "min": 0,   "max": 414}
+}
